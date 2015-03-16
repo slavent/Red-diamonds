@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='ru'>
+  <head>
+    <title></title>
+    <link rel='icon' href='/tmpl/i/favicon.png' type='image/x-icon' /> 
+    <link rel='shortcut icon' href='/tmpl/i/favicon.png' type='image/x-icon' />
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css">
+    <script src='js/jquery.js'></script>
+    <script src='js/modernizr.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script>
+  </head>
+<body id="main">
+    <div id='wrapper'>
+        <header>
+            <div id="logo_wrap">
+                <a href="/">
+                    <img src='img/logo.png' width="100px">
+                </a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li class="first"><a href="/">Главная</a></li>
+                    <li class="two"><a href="/to-be-a-model/">Стать моделью</a></li>
+                    <li class="three"><a href="/about/">О нас</a></li>
+                    <li class="four"><a href="/contacts/">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="slider fotorama" data-width="1000" data-height="400" data-fit="cover" data-loop="true" data-autoplay="true">
+                <img src="img/1.jpg">
+                <img src="img/2.jpg">
+                <img src="img/3.jpg">
+                <img src="img/4.jpg">
+            </div>
+
+        </main>
+
+        <footer>
+            <div id="copy">
+                All right reserved. <br>Red Diamonds. <?=date("Y")?>
+            </div>
+        </footer>
+
+    </div>
+</body>
+    

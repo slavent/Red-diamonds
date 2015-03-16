@@ -1,0 +1,245 @@
+/* Others page */
+#page{
+ 	background: #000 url(../img/bg.jpg) center 0 no-repeat;
+ 	background-attachment: fixed;
+	font-family: Segoe UI, Arial;
+	color: #fff;
+	font-size: 14px;
+}
+
+#page #wrapper{
+ 	width: 1000px;
+ 	margin: auto;
+}
+
+#page header{
+ 	min-height: 115px;
+}
+
+#page header #logo_wrap{
+ 	width: 205px;
+ 	float: left;
+ 	text-align: center;
+}
+
+#page header #logo_wrap img{
+	margin: 15px 0px 15px 0px;
+}
+
+#page #nav{
+	padding: 40px 0px 0px 0px;
+}
+
+#page #nav .first, #page #nav .two, #page #nav .three, #page #nav .four{
+	float: left;
+	margin: 0px 0px 0px 20px;
+	list-style: none;
+	background: rgba(0, 0, 0, 0.7);
+	width: 160px;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+#page #nav .first, #page #nav .two, #page #nav .three, #page #nav .four{
+	-webkit-transform: skewX(30deg); 
+	-moz-transform: skewX(30deg); 
+	-ms-transform: skewX(30deg); 
+	-o-transform: skewX(30deg); 
+	transform: skewX(30deg); 
+}
+
+#page #nav .first div, #page #nav .two div, #page #nav .three div, #page #nav .four div{
+	-webkit-transform: skewX(-30deg); 
+	-moz-transform: skewX(-30deg); 
+	-ms-transform: skewX(-30deg); 
+	-o-transform: skewX(-30deg); 
+	transform: skewX(-30deg); 
+}
+
+#page #nav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#page #nav a:hover{
+	
+}
+
+#page #nav a:hover .first, #page #nav a:hover .two, #page #nav a:hover .three, #page #nav a:hover .four{
+	background: #680000;
+	 -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+}
+
+#page main{
+ 	clear: both;
+ 	min-height: 400px;
+ 	background: rgba(0, 0, 0, 0.7);
+ 	padding: 30px;
+ 	display: block;
+}
+
+#page  main a{
+	color: #fff;
+}
+
+#page main h1, #page main h1 a{
+	font-weight: normal;
+	font-size: 18px;
+	font-style: italic;
+	color: #fff;
+	text-decoration: none;
+	margin:0px 0px 15px 0px;
+}
+
+#page footer{
+	font-size: 14px;
+	color: #818181;
+}
+
+#page footer #copy{
+	margin:50px 0px 0px 0px;
+	text-align: center;
+	border-top: 1px dashed #818181;
+	padding:20px 0px 20px 0px;
+}
+
+/* Index page */
+#main{
+	background: #000 url(../img/bg.jpg) center 0 no-repeat;
+ 	background-attachment: fixed;
+	font-family: Segoe UI, Arial;
+	color: #fff;
+}
+
+#main #wrapper{
+	width: 1000px;
+	margin: auto;
+}
+
+#main header{
+	width: 1000px;
+	margin: auto;
+	position: relative;
+}
+
+#main #logo_wrap{
+	margin:50px 0px 17px 0px;
+	text-align: center;
+}
+
+#main #nav{
+	border-bottom: 1px dashed #818181;
+	margin: 0px 0px 20px 0px;
+}
+
+#main #nav .first{
+	position: absolute;;
+	top: 155px;
+	left: 50px;
+}
+
+#main #nav .two{
+	position: absolute;;
+	top: 200px;
+	left: 75px;
+}
+
+#main #nav .three{
+	position: absolute;;
+	top: 155px;
+	left: 520px;
+}
+
+#main #nav .four{
+	position: absolute;;
+	top: 200px;
+	left: 494px;
+}
+
+#main #nav .first, #main #nav .two, #main #nav .three, #main #nav .four{
+	float: left;
+	margin: 0px 0px 0px 120px;
+	list-style: none;
+	background: rgba(0, 0, 0, 0.7);
+	width: 190px;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+#main #nav .first, #main #nav .two{
+	-webkit-transform: skewX(30deg); 
+	-moz-transform: skewX(30deg); 
+	-ms-transform: skewX(30deg); 
+	-o-transform: skewX(30deg); 
+	transform: skewX(30deg); 
+}
+
+#main #nav .first div, #main #nav .two div{
+	-webkit-transform: skewX(-30deg); 
+	-moz-transform: skewX(-30deg); 
+	-ms-transform: skewX(-30deg); 
+	-o-transform: skewX(-30deg); 
+	transform: skewX(-30deg); 
+}
+
+#main #nav .three, #main #nav .four{
+	-webkit-transform: skewX(-30deg); 
+	-moz-transform: skewX(-30deg); 
+	-ms-transform: skewX(-30deg); 
+	-o-transform: skewX(-30deg); 
+	transform: skewX(-30deg); 
+}
+
+#main #nav .three div, #main #nav .four div{
+	-webkit-transform: skewX(30deg); 
+	-moz-transform: skewX(30deg); 
+	-ms-transform: skewX(30deg); 
+	-o-transform: skewX(30deg); 
+	transform: skewX(30deg); 
+}
+
+#main #nav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#main #nav a:hover{
+	
+}
+
+#main #nav a:hover .first, #main #nav a:hover .two, #main #nav a:hover .three, #main #nav a:hover .four{
+	background: #680000;
+	 -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+}
+
+#main main{
+	width: 100%;
+	margin: auto;
+	clear: both;
+} 
+
+#main main a{
+	color: #fff;
+}
+
+#main footer{
+	width: 1000px;
+	margin: auto;
+	clear: both;
+	padding-top: 45px;
+}
+
+#main footer #copy{
+	margin:-5px 0px 0px 0px;
+	text-align: center;
+	font-size:14px;
+	border-top: 1px dashed #818181;
+	padding:20px 0px 20px 0px;
+	color: #818181;
+}
